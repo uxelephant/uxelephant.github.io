@@ -1,14 +1,29 @@
-// Mixins
-// Bootstrap Button Variant
-@mixin background-cover {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+@mixin mobile-xs{
+  @media(max-width:400px){
+    @content;
+  }
 }
-@mixin body-font {
-  font-family: 'Open Sans', serif;
+@mixin mobile{
+  @media(max-width:575px){
+    @content;
+  }
 }
-@mixin heading-font {
-  font-family: 'Saira Extra Condensed', serif;
+@mixin tablet{
+  @media(max-width:767px){
+    @content;
+  }
+}
+@mixin desktop{
+  @media(max-width:991px){
+    @content;
+  }
+}
+@mixin desktop-lg{
+  @media(max-width:1200px){
+    @content;
+  }
+}
+
+@mixin size($size){
+  width: $size; height: $size;
 }
