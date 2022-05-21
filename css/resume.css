@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', serif;
+  font-family: 'Kalam', cursive;
   padding-top: 54px;
   color: #868e96;
 }
@@ -17,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', serif;
+  font-family: 'Kalam', cursive;
   font-weight: 700;
   text-transform: uppercase;
   color: #343a40;
@@ -34,7 +34,7 @@ h2 {
 
 .subheading {
   font-weight: 500;
-  font-family: 'Arial', serif;
+  font-family: 'Kalam', cursive;
   font-size: 1.35rem;
 }
 
@@ -82,7 +82,7 @@ h2 {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    border: 0.5rem solid rgba(255, 255, 255, 0.6);
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -130,7 +130,8 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #c23a73 !important;
+  background-color: #F3F3F3 !important; 
+  /*#c23a73*/
 }
 
 .text-primary {
@@ -143,4 +144,18 @@ a {
 
 a:hover, a:focus, a:active {
   color: #824027;
+}
+
+.handwriting {
+  font-family: 'Kalam', cursive;
+  font-size: 2.25rem;
+  line-height: 150%;
+  text-align: left;
+}
+
+.signature {
+  font-family: 'Dancing Script', cursive;
+  color: #2f303a;
+  font-size: 1.5rem;
+  line-height: 1.2;
 }
