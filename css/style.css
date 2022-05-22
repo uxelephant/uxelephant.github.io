@@ -826,9 +826,19 @@ blockquote {
   line-height: 1.2;
 }
 
-.blog p {
+.blog p, .blog li{
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.blog p i{
+  font-family: "Kalam";
+  font-weight: 200;
+  color: #999;
+}
+
+.blog li{
+    list-style-type: disc;
 }
 
 .navbar-dark .navbar-toggler {
