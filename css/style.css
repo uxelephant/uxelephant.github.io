@@ -221,7 +221,7 @@ a:hover {
 }
 
 .bg-primary {
-  background: #41228e !important;
+  background: #41228e!important; 
 }
 
 .bg-gray {
@@ -829,4 +829,15 @@ blockquote {
 .blog p {
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-dark .navbar-toggler {
+  color: rgba(255,255,255,.5);
+  border-color: rgba(255,255,255,0) !important;
+}
+
+@media (max-width: 991px) {
+.navigation {
+    padding: 10p0x !important;
+}
 }
