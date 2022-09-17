@@ -418,7 +418,7 @@ textarea.form-control {
 }
 
 .hero-area {
-  padding: 300px 0 200px;
+  padding: 250px 0 150px;
   position: relative;
 }
 @media (max-width: 767px) {
@@ -813,6 +813,9 @@ blockquote {
   bottom: -100px;
 }
 
+.page-writing.page-title {
+  padding: 80px 0 50px;
+}
 .filter-controls li {
   cursor: pointer;
 }
