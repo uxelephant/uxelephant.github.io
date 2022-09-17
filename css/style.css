@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Dancing+Script:700|Roboto:400|Kalam:700");
 body {
   line-height: 1.2;
-  font-family: "Kalam", sans-serif;
+  font-family: Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
   color: #4c4c4c;
@@ -13,7 +13,7 @@ p, .paragraph {
   color: #4c4c4c;
   font-size: 15px;
   line-height: 1.8;
-  font-family: "Kalam", sans-serif;
+  font-family: Arial, sans-serif;
 }
 p-lg, .paragraph-lg {
   font-size: 22px;
@@ -21,7 +21,7 @@ p-lg, .paragraph-lg {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Kalam", serif;
+  font-family: Arial, serif;
   line-height: 1.2;
 }
 
@@ -188,7 +188,7 @@ a:hover {
 }
 .section-title {
   margin-bottom: 80px;
-  font-family: "Kalam", serif;
+  font-family: Arial, serif;
 }
 
 .bg-cover {
@@ -297,7 +297,7 @@ a:hover {
 }
 
 .font-secondary {
-  font-family: "Kalam", serif !important;
+  font-family: Arial, serif !important;
 }
 
 .font-tertiary {
@@ -405,7 +405,7 @@ textarea.form-control {
 }
 
 .navbar .nav-item .nav-link {
-  font-family: "Kalam", serif;
+  font-family: Arial, serif;
   text-transform: uppercase;
   padding: 15px;
 }
@@ -706,7 +706,7 @@ blockquote {
   margin-bottom: 20px;
 }
 .content strong {
-  font-family: "Kalam", serif;
+  font-family: Arial, serif;
   font-size: 22px;
   font-weight: normal;
   color: #000;
@@ -832,7 +832,7 @@ blockquote {
 }
 
 .blog p i{
-  font-family: "Kalam";
+  font-family: Arial;
   font-weight: 200;
   color: #999;
 }
