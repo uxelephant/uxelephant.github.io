@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Canteen @ SGP101</title>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <link rel="shortcut icon" href="dist/img/theme/favicon.png">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="lib/ionicons/css/ionicons.css">
+    <link href="dist/css/main.css" rel="stylesheet" type="text/css" />
+ 
+  </head>
+  <body class="skin-bosch layout-top-nav">
+   <div class="wrapper">
+       
+      <header class="main-header">
+
+
+        <div class="navbar-custom-menu">
+            <ul class="nav navbar-nav">
+              <li>&nbsp;</li>
+            </ul>
+
+              </div>
+ 
+      </header>
+    
+      <!-- Content Wrapper. Contains page content -->
+      <div class="content-wrapper">
+        <!-- Content Header (Page header)-->
+        <section class="content-header">
+                     <h1>
+                 <img src="dist/img/theme/bosch-logo.png" alt="Bosch" class="bosch-logo"> 
+              Canteen @ SGP101
+          </h1>
+        </section>
+        <!-- Main content -->
+        <section class="content" style="padding:20px 60px 20px 60px">
+            
+        <h1 id="title">
+           How was the temperature during your stay at the canteen?
+          </h1>
+           <div class="alert fade in" id="bitcold-alert" style="display: none;">
+      
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-body">
+                     <img src="dist/img/bittoocold.png" width="36"/ >
+                    <h2>You feel it is a bit too cool.</h2>
+                    <h3>Thanks for your feedback!</h3>
+                  </div>
+                </div>
+              </div>
+             
+            </div>
+           <div class="alert fade in" id="cold-alert" style="display: none;">
+      
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-body">
+                     <img src="dist/img/toocold.png" width="36"/ >
+                    <h2>You feel it is too cold.</h2>
+                    <h3>Thanks for your feedback!</h3>
+                  </div>
+                </div>
+              </div>
+             
+            </div>
+             <div class="alert fade in" id="bithot-alert" style="display: none;">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-body">
+                     <img src="dist/img/bittoohot.png" width="36"/ >
+                    <h2>You feel it is a bit too warm.</h2>
+                    <h3>Thanks for your feedback!</h3>
+                  </div>
+                </div>
+              </div>
+               
+            
+            </div>
+         <div class="alert fade in" id="hot-alert" style="display: none;">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-body">
+                     <img src="dist/img/toohot.png" width="36"/ >
+                    <h2>You feel it is too hot.</h2>
+                    <h3>Thanks for your feedback!</h3>
+                  </div>
+                </div>
+              </div>
+               
+            
+            </div>
+               <div class="alert fade in" id="good-alert" style="display: none;">
+                 <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-body">
+                     <img src="dist/img/justright.png" width="36"/ >
+                    <h2>You feel it is just right.</h2>
+                    <h3>Thanks for your feedback!</h3>
+                  </div>
+                </div>
+              </div>
+  
+             
+            </div>
+              
+          
+      <div class="row emoticon"  style="padding:40px 0px;margin-bottom:50px">
+   
+          <div class="col-md-3 emoticon" id="toocold">
+                    <img src="dist/img/toocold.png" class="img-responsive" / >
+                  <p>Too cold</p>
+      </div>
+
+         <div class="col-md-3 emoticon" id="bittoocold">
+                    <img src="dist/img/bittoocold.png" class="img-responsive" / >
+                  <p>Bit too cool</p>
+      </div>
+
+      <div class="col-md-3 emoticon" id="good">
+                   <img src="dist/img/justright.png" class="img-responsive" / >
+                    <p>Just right</p>
+      </div>
+      <div class="col-md-3 emoticon" id="bittoohot">
+        <img src="dist/img/bittoohot.png" class="img-responsive" />
+                  <p>Bit too warm</p>
+                  </div>
+                    <div class="col-md-3 emoticon"  id="toohot">
+        <img src="dist/img/toohot.png" class="img-responsive" />
+                  <p>Too hot</p>
+                  </div>
+              
+                </div>
+
+
+                </div>
+          </section>
+      </div><!-- /.content-wrapper -->
+
+     <footer class="main-footer">
+
+        <h5>Powered by </h5>
+        <img class="bic" src='dist/img/theme/visual-bic-key.png'/>
+        <h4>and Corporate Research</h4>  
+        
+        <div class="pull-right">
+          
+        <img src="dist/img/theme/bosch_logo_english.png" alt="Bosch">
+        </div>
+
+      </footer>
+
+
+
+    <script src="lib/jquery/jquery-2.1.4.min.js"></script>
+    <!-- Bootstrap 3.3.2 JS -->
+    <script src="lib/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+            
+ <script>
+    $(".img-responsive").on("click", function() {
+          $("#hot-alert").show();
+          $("#hot-alert").delay(200).fadeOut(3500);
+        });
+
+   
+ </script>
+
+
+
+  </body>
+</html>
